@@ -20,8 +20,9 @@ public class ExampleB {
         while(engine && tank >= 0){
             if(tank > 0){
                 System.out.println("Iteration #" + (count++) + " & Tank : " + (tank * 100) + "%");
-            }
+                tank -= 0.05;           }
             else{
+                engine = false;
                 System.out.println("Tank is empty");
             }
         }
