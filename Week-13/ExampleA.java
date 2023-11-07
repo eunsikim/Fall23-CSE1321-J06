@@ -11,6 +11,9 @@ class student{
 }
 
 public class ExampleA {
+    public static void something(){
+        System.out.println("Hello World");
+    }
     public static void main(String[] args) {
         student s1 = new student();
         int number = 3;
