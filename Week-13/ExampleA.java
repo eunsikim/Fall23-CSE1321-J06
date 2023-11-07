@@ -2,6 +2,7 @@ class student{
     String name;
     float gpa;
 
+    // We do not need to make functions static in non-Main/Driver classes for now
     public void setName(String _name){
         name = _name;
     }
@@ -11,6 +12,7 @@ class student{
 }
 
 public class ExampleA {
+    // We will only use static for functions in the Main/Driver Class (for now)
     public static void something(){
         System.out.println("Hello World");
     }
